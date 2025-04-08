@@ -65,6 +65,10 @@
     display: none;
 }
 
+.container-texto {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .container-titulo, 
     .container-titulo-negrito {
@@ -120,12 +124,25 @@
     .opcoes-botao {
         display: none;
     }
+
+    .container-texto {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1728px) {
     .container-link {
         display: flex;
+        text-decoration: none;
         align-items: center;
-        flex-direction: column;
-    } 
+        color: var(--preto);
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
 }
